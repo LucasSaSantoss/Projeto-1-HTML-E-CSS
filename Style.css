@@ -1,0 +1,136 @@
+*{padding:0;margin:0;box-sizing: border-box;}
+
+body {
+	background: #BBBBBB;
+	overflow-x: hidden;
+	padding: 30px;
+}
+
+
+.LogoIni{
+	position:relative;
+	width:100%;
+	margin-bottom: 40px;
+}
+
+main {
+	width: 100%;
+}
+
+div {
+	font-family: 'Papiros', cursive;
+	font-size: 15px;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.TextPrinc {
+	font-family: 'Tilt Warp', cursive;
+	font-size: 35px ;
+	font-weight: bold;
+	margin: 0;
+	text-align: center;
+}
+
+.enviar {
+	display: block;
+	font-size: 15px;
+	margin: 25px auto;
+	background: #000000;
+	color: #FFFFFF;
+	border-radius: 15px;
+	height: 30px;
+	width: 15%;
+}
+
+.enviar:hover{
+	background: darkorange;
+	transform: scale(1.1);
+}
+
+.modelo {
+	font-family: 'Golos Text', sans-serif;
+
+}
+
+
+.imagens {
+	background-size: cover;
+	display: inline-flex;
+	overflow: hidden;
+	width: 410px;
+	height: 300px;
+	position:relative;
+}
+
+.imagens {
+	transition: transform 0.3s ease;
+}
+
+.imagens :hover{
+	transform: scale(1.1);
+}
+
+.imagens2 {
+	background-size: cover;
+	display: inline-flex;
+	overflow: hidden;
+	width: 410px;
+	height: 300px;
+	position:relative;
+}
+
+.imagens2 {
+	transition: transform 0.3s ease;
+}
+
+.imagens2 :hover{
+	transform: scale(1.1);
+}
+
+.imagens3 {
+	background-size: cover;
+	display: inline-flex;
+	overflow: hidden;
+	width: 410px;
+	height: 300px;
+	position:relative;
+}
+
+.imagens3 {
+	transition: transform 0.3s ease;
+}
+
+.imagens3 :hover{
+	transform: scale(1.1);
+}
+
+h2 { 
+	font-size: 35px;
+	font-family: 'Tilt Neon', cursive;
+}
+
+.info p {
+	display: block;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.Conferir {
+	display: inline-block;
+	font-size: 15px;
+	margin: 25px auto;
+	background: #000000;
+	color: #FFFFFF;
+	border-radius: 15px;
+	height: 30px;
+	width: 15%;
+}
+
+.Conferir:hover{
+	background: darkorange;
+	transform: scale(1.1);
+}
